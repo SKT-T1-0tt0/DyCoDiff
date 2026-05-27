@@ -1,0 +1,69 @@
+# Data and generated outputs
+datasets/
+saved_ckpts/
+checkpoints/
+results/
+output/
+releases/
+*_cache/
+cache/
+tacm/modules/cache/
+
+# Model weights and media artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.wav
+*.flac
+*.npy
+*.npz
+
+# Reports and local experiment logs
+evaluation_report*.json
+evaluation_report*.txt
+*.log
+wandb/
+lightning_logs/
+runs/
+RAFT/demo-frames/
+beats/Evaluation_Results/
+
+# Python and environment files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.env
+.env.*
+.venv/
+venv/
+miniconda3/
+
+# LaTeX and paper draft artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+!assets/*.pdf
+!assets/*.jpg
+darft3_5/
+els-cas-templates/
+draft*/
+paper_draft_*
+Technical Report Template-LaTeX/
+
+# Local/private files
+ssh_files/
+.DS_Store
+*.swp

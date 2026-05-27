@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "DyCoDiff: Dynamic Collaborative Diffusion for Text-Image-Audio-to-Video Generation"
+message: "If you use this repository, please cite the DyCoDiff paper."
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Youming
+  - family-names: Wang
+    given-names: Wenmin
+  - family-names: Chen
+    given-names: Zhongheng
+  - family-names: Peng
+    given-names: Zhengyu
+repository-code: "https://github.com/SKT-T1-0tt0/DyCoDiff"
+abstract: "Official implementation of DyCoDiff, a dynamic collaborative diffusion framework for text-image-audio-to-video generation."
+keywords:
+  - text-image-audio-to-video
+  - video generation
+  - diffusion models
+  - multimodal learning
+  - collaborative learning
+license: "NOASSERTION"
+date-released: 2026-05-27
